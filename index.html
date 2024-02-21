@@ -69,13 +69,6 @@
 
       var marker = L.marker([row.Latitude, row.Longitude], {
         opacity: 1
-        // Icon Customization
-        icon: L.icon({
-          iconUrl: 'cat_icon.png',
-          iconSize: [40, 60]
-        })
-
-
         
       }).bindPopup(row.Title);
       
